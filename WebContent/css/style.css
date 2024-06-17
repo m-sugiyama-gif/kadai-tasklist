@@ -1,9 +1,9 @@
 @charset "UTF-8";
-@CHARSET "UTF-8";
 
 body {
     color: #333333;
-    font-family: "Hiragino Kaku Gothic Pro",Meiryo,"MS PGothic",Helvetica,Arial,sans-serif;
+    font-family: "Hiragino Kaku Gothic Pro", Meiryo, "MS PGothic", Helvetica,
+        Arial, sans-serif;
 }
 
 #header {
@@ -93,4 +93,3 @@ button {
     color: #721c24;
     background-color: #f8d7da;
 }
-

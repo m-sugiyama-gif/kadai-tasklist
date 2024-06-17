@@ -54,7 +54,6 @@ public class CreateServlet extends HttpServlet {
             if (errors.size() > 0) {
                 em.close();
 
-
                 request.setAttribute("_token", request.getSession().getId());
                 request.setAttribute("message", m);
                 request.setAttribute("errors", errors);
@@ -67,7 +66,6 @@ public class CreateServlet extends HttpServlet {
                 em.getTransaction().commit();
                 request.getSession().setAttribute("flush", "登録が完了しました。");
                 em.close();
-
 
                 response.sendRedirect(request.getContextPath() + "/index");
             }
