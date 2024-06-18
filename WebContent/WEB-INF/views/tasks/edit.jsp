@@ -19,7 +19,7 @@
                 </p>
 
                 <p>
-                    <a href="#" onclick="confirmDestroy();">このメッセージを削除する</a>
+                    <a href="#" onclick="confirmDestroy();">このタスクを削除する</a>
                 </p>
                 <form method="POST"
                     action="${pageContext.request.contextPath}/destroy">
@@ -34,7 +34,7 @@
         </script>
             </c:when>
             <c:otherwise>
-                <h2>お探しのデータは見つかりませんでした。</h2>
+                <h2>お探しのタスクは見つかりませんでした。</h2>
             </c:otherwise>
         </c:choose>
     </c:param>
