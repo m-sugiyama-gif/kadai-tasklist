@@ -16,7 +16,7 @@
 <label for="content_msg">タスク</label>
 <br />
 <input type="text" name="content" id="content_msg"
-    value="${message.content}" />
+    value="${task.content}" />
 <br />
 <br />
 

@@ -5,9 +5,9 @@
     <c:param name="content">
 
         <c:choose>
-            <c:when test="${message != null}">
+            <c:when test="${task != null}">
 
-                <h2>id : ${message.id} のタスク編集ページ</h2>
+                <h2>id : ${task.id} のタスク編集ページ</h2>
 
                 <form method="POST"
                     action="${pageContext.request.contextPath}/update">
